@@ -50,14 +50,14 @@ Este projeto consolidou os seguintes conhecimentos práticos:
 
 ## 🛠️ Como Executar
 
-1. **Subir Infraestrutura:** ```bash
+1. Subir Infraestrutura: 
     docker-compose up -d
 
-2. **Preparar Banco de Dados:**```bash
+2. Preparar Banco de Dados:
      Através do phpMyAdmin (localhost:5050), garantir a criação dos esquemas conforme configurado no projeto.
 
-3. **Rodar API de Origem:**```bash
+3. Rodar API de Origem:
      Certificar-se de que o serviço de dados na porta 8081 está ativo.
 
-4. **Executar Job:***```bash
+4. Executar Job:
      mvn spring-boot:run    
