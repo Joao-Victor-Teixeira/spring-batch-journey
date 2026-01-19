@@ -84,7 +84,7 @@ public class FetchUserDataReaderConfig implements ItemReader<UserDTO> {
             }
         } catch (Exception e) {
             logger.error("ERRO CRÍTICO NO BEFORE CHUNK: " + e.getMessage());
-            e.printStackTrace(); // Isso vai cuspir o erro real (ex: Connection Refused) no console
+            e.printStackTrace(); 
         }
     }
 
